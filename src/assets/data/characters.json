@@ -61,9 +61,9 @@
   },
   {
     "id": 6,
-    "firstName": "Ned",
+    "firstName": "Eddard",
     "lastName": "Stark",
-    "fullName": "Ned Stark",
+    "fullName": "Eddard Stark",
     "title": "Lord of Winterfell",
     "family": "House Stark",
     "image": "ned-stark.jpg",
@@ -235,7 +235,7 @@
     "lastName": "Tarth",
     "fullName": "Brienne of Tarth",
     "title": "Lady Brienne",
-    "family": "Tarth",
+    "family": "House Tarth",
     "image": "brienne-tarth.jpeg",
     "imageUrl": "https://thronesapi.com/assets/images/brienne-tarth.jpeg"
   },
@@ -265,7 +265,7 @@
     "lastName": "Targaryan",
     "fullName": "Viserys Targaryn",
     "title": "King Viserys III",
-    "family": "Targaryan",
+    "family": "House Targaryan",
     "image": "viserys-targaryan.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/viserys-targaryan.jpg"
   },
@@ -275,7 +275,7 @@
     "lastName": "Stark",
     "fullName": "Rickon Stark",
     "title": "Prince",
-    "family": "Stark",
+    "family": "House Stark",
     "image": "rickon.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/rickon.jpg"
   },
@@ -285,7 +285,7 @@
     "lastName": "Bolton",
     "fullName": "Roose Bolton",
     "title": "Lord of Dreadfort",
-    "family": "Bolton",
+    "family": "House Bolton",
     "image": "roose-bolton.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/roose-bolton.jpg"
   },
@@ -315,7 +315,7 @@
     "lastName": "Baratheon",
     "fullName": "Tommen Baratheon",
     "title": "Prince",
-    "family": "Baratheon",
+    "family": "House Baratheon",
     "image": "tommen.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/tommen.jpg"
   },
@@ -325,7 +325,7 @@
     "lastName": "Baratheon",
     "fullName": "Gendry Baratheon",
     "title": "Lord of Storm's End",
-    "family": "Baratheon",
+    "family": "House Baratheon",
     "image": "gendry.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/gendry.jpg"
   },
@@ -345,7 +345,7 @@
     "lastName": "Baratheon",
     "fullName": "Robert Baratheon",
     "title": "King",
-    "family": "Baratheon",
+    "family": "House Baratheon",
     "image": "king-robert.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/king-robert.jpg"
   },
@@ -355,7 +355,7 @@
     "lastName": "Bolton",
     "fullName": "Ramsey Bolton",
     "title": "The Bastard of Bolton",
-    "family": "Bolton",
+    "family": "House Bolton",
     "image": "ramsey-bolton.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/ramsey-bolton.jpg"
   },
@@ -365,7 +365,7 @@
     "lastName": "Stark",
     "fullName": "Talisa Stark",
     "title": "Queen Consort",
-    "family": "Stark",
+    "family": "House Stark",
     "image": "talisa-stark.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/talisa-stark.jpg"
   },
@@ -375,7 +375,7 @@
     "lastName": "Mormont",
     "fullName": "Jeor Mormont",
     "title": "Lord Commander of the Knight's Watch",
-    "family": "Mormont",
+    "family": "House Mormont",
     "image": "lord-commander-mormont.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/lord-commander-mormont.jpg"
   },
@@ -385,7 +385,7 @@
     "lastName": "Sparrow",
     "fullName": "The High Sparrow",
     "title": "High Septon",
-    "family": "Sparrow",
+    "family": "",
     "image": "the-high-sparrow.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/the-high-sparrow.jpg"
   },
@@ -395,7 +395,7 @@
     "lastName": "Martell",
     "fullName": "Oberyn Martell",
     "title": "Red Viper of Dorne",
-    "family": "Viper",
+    "family": "House Martell",
     "image": "red-viper.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/red-viper.jpg"
   },
@@ -425,7 +425,7 @@
     "lastName": "Lannister",
     "fullName": "Tywin Lannister",
     "title": "Lord Paramount of Westerlands",
-    "family": "Lannister",
+    "family": "House Lannister",
     "image": "tywin-lannister.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/tywin-lannister.jpg"
   },
@@ -435,7 +435,7 @@
     "lastName": "Sand",
     "fullName": "Ellaria Sand",
     "title": "Paramour of Prince Oberyn Martell",
-    "family": "Sand",
+    "family": "House Martell",
     "image": "ellaria-sand.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/ellaria-sand.jpg"
   },
@@ -455,7 +455,7 @@
     "lastName": "Greyjoy",
     "fullName": "Yara Greyjoy",
     "title": "Lady of the Iron Islands",
-    "family": "Greyjoy",
+    "family": "House Greyjoy",
     "image": "yara-greyjoy.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/yara-greyjoy.jpg"
   },
@@ -465,7 +465,7 @@
     "lastName": "Greyjoy",
     "fullName": "Euron Greyjoy",
     "title": "King of the iron Islands",
-    "family": "Greyjoy",
+    "family": "House Greyjoy",
     "image": "euron-greyjoy.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/euron-greyjoy.jpg"
   },
@@ -475,7 +475,7 @@
     "lastName": "Hodor",
     "fullName": "Hodor",
     "title": "Servant of House Stark",
-    "family": "Stark",
+    "family": "",
     "image": "hodor.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/hodor.jpg"
   },
@@ -505,7 +505,7 @@
     "lastName": "Tyrell",
     "fullName": "Olenna Tyrell",
     "title": "Queen of Thorns",
-    "family": "Tyrell",
+    "family": "House Tyrell",
     "image": "olenna-tyrell.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/olenna-tyrell.jpg"
   },
@@ -525,7 +525,7 @@
     "lastName": "Bronn",
     "fullName": "Lord Bronn",
     "title": "Lord of Highgarden",
-    "family": "Bronn",
+    "family": "",
     "image": "bronn.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/bronn.jpg"
   }

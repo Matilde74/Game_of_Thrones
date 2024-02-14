@@ -10,7 +10,9 @@ function CharactersCardsGrid(props) {
                 <CharactersCard
                     name={character.fullName}
                     image={character.imageUrl}
-                    house={character.title}
+                    house={character.family}
+                    title={character.title}
+                    numer={character.id}
                 />
             </div>
         )
