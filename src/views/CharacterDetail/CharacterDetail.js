@@ -1,7 +1,6 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import CharactersListData from "../../assets/data/characters.json";
 import {characterDefaultImage} from "../../utility/utility";
-import {getcharacterQuote} from "../../utility/utility";
 import {
     Card,
     CardBody,
@@ -19,7 +18,29 @@ function CharacterDetail () {
         character.id === id
     )[0];
 
+    const [characterQuote, setCharacterQuote] = useState([]);
 
+    const quoteName = (firstName) => currentCharacter.firstName.toLowerCase();
+
+    useEffect(() => {
+
+        let isMounted = true;
+
+        fetch(`https://api.gameofthronesquotes.xyz/v1/author/${quoteName()}`)
+            .then(res => res.json())/*Quando arriva la risposta, la interpeta come json*/
+            .then(res => { /*prende la risposta*/
+
+                if (isMounted)
+                    setCharacterQuote(res);
+            })
+            .catch((error) => console.log("Error" + error));
+
+
+        return () => {
+            isMounted = false;
+        }
+
+    }, [id]);
 
     return (
         <Card
@@ -45,7 +66,7 @@ function CharacterDetail () {
             />
             <CardBody>
                 <CardText>
-                    {getcharacterQuote(currentCharacter.fullName)}
+                    {characterQuote.sentence}
                 </CardText>
             </CardBody>
         </Card>
