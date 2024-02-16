@@ -148,7 +148,7 @@
     "lastName": "Baratheon",
     "fullName": "Joffrey Baratheon",
     "title": "Lord of the Seven Kingdoms, Protector of the Realm",
-    "family": "House Lannister",
+    "family": "House Baratheon",
     "image": "joffrey.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/joffrey.jpg",
     "id_API": "565"
@@ -181,7 +181,7 @@
     "lastName": "Petyr",
     "fullName": "Petyr Baelish",
     "title": "Littlefinger",
-    "family": "House Baelish",
+    "family": "",
     "image": "littlefinger.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/littlefinger.jpg",
     "id_API": "823"

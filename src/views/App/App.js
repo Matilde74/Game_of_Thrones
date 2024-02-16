@@ -1,7 +1,6 @@
 import React from "react";
 import MainTemplate from "../../components/MainTemplate/MainTemplate";
 import Home from "../Home/Home";
-import Houses from "../Houses/Houses";
 import Characters from "../Characters/Characters";
 import CharacterDetail from "../CharacterDetail/CharacterDetail";
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
@@ -18,9 +17,8 @@ function App() {
             >
                 <Routes>
                     <Route path='/' element={<Home/>}/>
-                    <Route path='/Houses' element={<Houses/>}/>
-                    <Route path='/Characters' element={<Characters/>}/>
-                    <Route path="/Characters/:number" element={<CharacterDetail/>}/>
+                    <Route path='/characters' element={<Characters/>}/>
+                    <Route path="/characters/:number" element={<CharacterDetail/>}/>
 
                 </Routes>
             </MainTemplate>

@@ -25,19 +25,19 @@ function CharacterDetail () {
     const [spouse, setSpouse] = useState([]);
 
     const quoteName = (firstName) => currentCharacter.firstName.toLowerCase();
-    let dataName = (fullName) => currentCharacter.id_API;
+    let dataName = (id_API) => currentCharacter.id_API;
 
     useEffect(() => {
 
         let isMounted = true;
 
+        setCharacterQuote([]);
         fetch(`https://api.gameofthronesquotes.xyz/v1/author/${quoteName()}`)
             .then(res => res.json())/*Quando arriva la risposta, la interpeta come json*/
             .then(res => { /*prende la risposta*/
 
                 if (isMounted)
                     setCharacterQuote(res);
-
 
             })
             .catch((error) => console.log("Error" + error));
@@ -84,12 +84,12 @@ function CharacterDetail () {
                 <div className="col">
                     <div>
 
-                        {id - 1 !== 0 &&
+                        {id - 1 !== -1 &&
                             <NavLink
-                                     to={`/Characters/${id - 1}`}>&lt; Prev</NavLink>
+                                     to={`/Characters/${id - 1}`}> &lt; Prev</NavLink>
                         }
 
-                        {id + 1 <= Object.keys(CharactersListData).length &&
+                        {id + 1 <= CharactersListData.length - 1 &&
                             <NavLink
                                      to={`/Characters/${id + 1}`}>Next &gt;</NavLink>
                         }
@@ -106,7 +106,7 @@ function CharacterDetail () {
                     >
                         <CardBody>
                             <CardTitle tag="h5">
-                                {currentCharacter.firstName + " " + currentCharacter.lastName}
+                                {currentCharacter.fullName}
                             </CardTitle>
                             <CardSubtitle
                                 className="mb-2 text-muted"
@@ -122,8 +122,10 @@ function CharacterDetail () {
                         />
                         <CardBody>
                             <CardText className="fst-italic">
-                                {
-                                    characterQuote.sentence
+                                {characterQuote.sentence && characterQuote.sentence !== "" &&
+                                    <div>
+                                        {characterQuote.sentence}
+                                    </div>
                                 }
                             </CardText>
                         </CardBody>
@@ -135,7 +137,7 @@ function CharacterDetail () {
                     ) : (
                         <div>
 
-                            {characterData.born && characterData.born != "" &&
+                            {characterData.born && characterData.born !== "" &&
                                 <div>
                                     Born: {characterData.born}
                                 </div>
@@ -177,15 +179,15 @@ function CharacterDetail () {
                             }
 
 
-
-                            <div> TV Series: </div>
-
                             {characterData.tvSeries && characterData.tvSeries != "" &&
-                                <ul>
-                                    {characterData.tvSeries.map((element, index) => (
-                                        <li key={index}> {element}</li>
-                                    ))}
-                                </ul>
+                                <div> TV Series:
+                                    <ul>
+                                        {characterData.tvSeries.map((element, index) => (
+                                            <li key={index}> {element}</li>
+                                        ))}
+                                    </ul>
+                                </div>
+
                             }
 
 
@@ -200,12 +202,6 @@ function CharacterDetail () {
                                 </div>
 
                             }
-
-
-
-
-
-
 
 
                         </div>

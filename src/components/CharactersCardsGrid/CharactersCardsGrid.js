@@ -1,6 +1,5 @@
 import React from "react";
 import CharactersCard from "../CharactersCard/CharactersCard";
-import Renly from "../../assets/images/Renly_Baratheon.webp";
 
 function CharactersCardsGrid(props) {
     const {CharactersList, col} = props;
