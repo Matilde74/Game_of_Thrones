@@ -1,0 +1,10 @@
+.prova {
+    background-image: url("../../assets/images/sfondo_libro.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 135vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

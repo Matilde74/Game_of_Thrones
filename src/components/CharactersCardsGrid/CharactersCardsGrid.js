@@ -1,5 +1,6 @@
 import React from "react";
 import CharactersCard from "../CharactersCard/CharactersCard";
+import {NavLink} from "react-router-dom";
 
 function CharactersCardsGrid(props) {
     const {CharactersList, col} = props;
@@ -7,14 +8,15 @@ function CharactersCardsGrid(props) {
 
     const CharactersCardsCol = CharactersList.map((character) => {
         return (
-            <div key={character.id} className="col">
-                <CharactersCard
-                    name={character.fullName}
-                    image={character.imageUrl}
-                    house={character.family}
-                    title={character.title}
-                    numer={character.id}
-                />
+            <div key={character.id} className=" d-flex align-items-center justify-content-center">
+                <NavLink to={`/characters/${character.id}`}>
+                    <CharactersCard
+                       name={character.fullName}
+                       image={character.imageUrl}
+                       house={character.family}
+                       title={character.title}
+                 />
+                </NavLink>
             </div>
         )
     });
@@ -26,6 +28,7 @@ function CharactersCardsGrid(props) {
                 row-cols-md-${col.md}
                 row-cols-lg-${col.lg}
                 row-cols-xl-${col.xl}
+                
         `}>
             {CharactersCardsCol}
         </div>

@@ -1,0 +1,5 @@
+.card {
+    padding-top: 5px;
+    color: var(--tertiary-color)!important;
+    background-color: var(--secondary-color)!important;
+}
