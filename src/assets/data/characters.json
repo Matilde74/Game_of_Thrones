@@ -7,7 +7,8 @@
     "title": "Mother of Dragons",
     "family": "House Targaryen",
     "image": "daenerys.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/daenerys.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/daenerys.jpg",
+    "id_API": "1303"
   },
   {
     "id": 1,
@@ -17,7 +18,8 @@
     "title": "Maester",
     "family": "House Tarly",
     "image": "sam.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/sam.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/sam.jpg",
+    "id_API": "954"
   },
   {
     "id": 2,
@@ -27,7 +29,8 @@
     "title": "King of the North",
     "family": "House Stark",
     "image": "jon-snow.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/jon-snow.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/jon-snow.jpg",
+    "id_API": "583"
   },
   {
     "id": 3,
@@ -37,7 +40,8 @@
     "title": "No One",
     "family": "House Stark",
     "image": "arya-stark.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/arya-stark.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/arya-stark.jpg",
+    "id_API": "148"
   },
   {
     "id": 4,
@@ -47,7 +51,8 @@
     "title": "Lady of Winterfell",
     "family": "House Stark",
     "image": "sansa-stark.jpeg",
-    "imageUrl": "https://thronesapi.com/assets/images/sansa-stark.jpeg"
+    "imageUrl": "https://thronesapi.com/assets/images/sansa-stark.jpeg",
+    "id_API": "957"
   },
   {
     "id": 5,
@@ -57,7 +62,8 @@
     "title": "Lord of Winterfell",
     "family": "House Stark",
     "image": "bran-stark.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/bran-stark.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/bran-stark.jpg",
+    "id_API": "208"
   },
   {
     "id": 6,
@@ -67,27 +73,30 @@
     "title": "Lord of Winterfell",
     "family": "House Stark",
     "image": "ned-stark.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/ned-stark.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/ned-stark.jpg",
+    "id_API": "339"
   },
   {
     "id": 7,
     "firstName": "Robert",
     "lastName": "Baratheon",
-    "fullName": "Robert Baratheon",
-    "title": "Lord of the Seven Kingdoms",
+    "fullName": "Robert I Baratheon",
+    "title": "King of the Seven Kingdoms",
     "family": "House Baratheon",
-    "image": "robert-baratheon.jpeg",
-    "imageUrl": "https://thronesapi.com/assets/images/robert-baratheon.jpeg"
+    "image": "king-robert.jpg",
+    "imageUrl": "https://thronesapi.com/assets/images/king-robert.jpg",
+    "id_API": "901"
   },
   {
     "id": 8,
-    "firstName": "Jamie",
+    "firstName": "Jaime",
     "lastName": "Lannister",
-    "fullName": "Jamie Lannister",
+    "fullName": "Jaime Lannister",
     "title": "Lord Commander of the Kingsguard",
     "family": "House Lannister",
     "image": "jaime-lannister.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/jaime-lannister.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/jaime-lannister.jpg",
+    "id_API": "529"
   },
   {
     "id": 9,
@@ -97,7 +106,8 @@
     "title": "Lady of Casterly Rock",
     "family": "House Lannister",
     "image": "cersei.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/cersei.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/cersei.jpg",
+    "id_API": "238"
   },
   {
     "id": 10,
@@ -107,17 +117,19 @@
     "title": "Lady of Winterfell",
     "family": "House Stark",
     "image": "catelyn-stark.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/catelyn-stark.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/catelyn-stark.jpg",
+    "id_API": "232"
   },
   {
     "id": 11,
     "firstName": "Robb",
     "lastName": "Stark",
-    "fullName": "Rob Stark",
+    "fullName": "Robb Stark",
     "title": "Lord of Winterfell",
     "family": "House Stark",
     "image": "robb-stark.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/robb-stark.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/robb-stark.jpg",
+    "id_API": "1880"
   },
   {
     "id": 12,
@@ -127,7 +139,8 @@
     "title": "Captain of Sea Bitch",
     "family": "House Greyjoy",
     "image": "theon.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/theon.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/theon.jpg",
+    "id_API": "1022"
   },
   {
     "id": 13,
@@ -137,7 +150,8 @@
     "title": "Lord of the Seven Kingdoms, Protector of the Realm",
     "family": "House Lannister",
     "image": "joffrey.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/joffrey.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/joffrey.jpg",
+    "id_API": "565"
   },
   {
     "id": 14,
@@ -147,27 +161,30 @@
     "title": "Hand of the Queen",
     "family": "House Lannister",
     "image": "tyrion-lannister.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/tyrion-lannister.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/tyrion-lannister.jpg",
+    "id_API": "1052"
   },
   {
     "id": 15,
     "firstName": "Sandor",
     "lastName": "Clegane",
-    "fullName": "The Hound",
+    "fullName": "Sandor Clegane",
     "title": "The Hound",
     "family": "House Clegane",
     "image": "the-hound.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/the-hound.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/the-hound.jpg",
+    "id_API": "955"
   },
   {
     "id": 16,
-    "firstName": "Petyr",
-    "lastName": "Baelish",
+    "firstName": "Baelish",
+    "lastName": "Petyr",
     "fullName": "Petyr Baelish",
     "title": "Littlefinger",
     "family": "House Baelish",
     "image": "littlefinger.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/littlefinger.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/littlefinger.jpg",
+    "id_API": "823"
   },
   {
     "id": 17,
@@ -177,7 +194,8 @@
     "title": "Hand of the King",
     "family": "House Seaworth",
     "image": "davos-seaworth.png",
-    "imageUrl": "https://thronesapi.com/assets/images/davos-seaworth.png"
+    "imageUrl": "https://thronesapi.com/assets/images/davos-seaworth.png",
+    "id_API": "1319"
   },
   {
     "id": 18,
@@ -187,27 +205,30 @@
     "title": "Lord of Dragonstone",
     "family": "House Baratheon",
     "image": "stannis.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/stannis.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/stannis.jpg",
+    "id_API": "1963"
   },
   {
     "id": 19,
     "firstName": "Varys",
-    "lastName": "Unknown",
+    "lastName": "",
     "fullName": "Varys",
     "title": "Master of Whisperers",
-    "family": "Unknown",
+    "family": "",
     "image": "varys.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/varys.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/varys.jpg",
+    "id_API": "2069"
   },
   {
     "id": 20,
     "firstName": "Khal",
     "lastName": "Drogo",
-    "fullName": "Khal Drogo",
+    "fullName": "Drogo",
     "title": "Khal",
     "family": "House Targaryen",
     "image": "khal-drogo.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/khal-drogo.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/khal-drogo.jpg",
+    "id_API": "1346"
   },
   {
     "id": 21,
@@ -217,7 +238,8 @@
     "title": "Queen of the Seven Kingdoms",
     "family": "House Tyrell",
     "image": "margaery-tyrell.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/margaery-tyrell.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/margaery-tyrell.jpg",
+    "id_API": "16"
   },
   {
     "id": 22,
@@ -227,7 +249,8 @@
     "title": "Spearwife",
     "family": "Free Folk",
     "image": "ygritte.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/ygritte.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/ygritte.jpg",
+    "id_API": "2126"
   },
   {
     "id": 23,
@@ -237,7 +260,8 @@
     "title": "Lady Brienne",
     "family": "House Tarth",
     "image": "brienne-tarth.jpeg",
-    "imageUrl": "https://thronesapi.com/assets/images/brienne-tarth.jpeg"
+    "imageUrl": "https://thronesapi.com/assets/images/brienne-tarth.jpeg",
+    "id_API": "216"
   },
   {
     "id": 24,
@@ -247,7 +271,8 @@
     "title": "Queen's Personal Advisor",
     "family": "Naathi",
     "image": "missandei.jpeg",
-    "imageUrl": "https://thronesapi.com/assets/images/missandei.jpeg"
+    "imageUrl": "https://thronesapi.com/assets/images/missandei.jpeg",
+    "id_API": "1709"
   },
   {
     "id": 25,
@@ -257,17 +282,19 @@
     "title": "The Rabbit Keeper",
     "family": "None",
     "image": "gilly.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/gilly.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/gilly.jpg",
+    "id_API": "1427"
   },
   {
     "id": 26,
     "firstName": "Viserys",
-    "lastName": "Targaryan",
-    "fullName": "Viserys Targaryn",
+    "lastName": "Targaryen",
+    "fullName": "Viserys Targaryen",
     "title": "King Viserys III",
-    "family": "House Targaryan",
+    "family": "House Targaryen",
     "image": "viserys-targaryan.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/viserys-targaryan.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/viserys-targaryan.jpg",
+    "id_API": "1079"
   },
   {
     "id": 27,
@@ -277,7 +304,8 @@
     "title": "Prince",
     "family": "House Stark",
     "image": "rickon.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/rickon.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/rickon.jpg",
+    "id_API": "891"
   },
   {
     "id": 28,
@@ -287,17 +315,20 @@
     "title": "Lord of Dreadfort",
     "family": "House Bolton",
     "image": "roose-bolton.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/roose-bolton.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/roose-bolton.jpg",
+    "id_API": "933"
+
   },
   {
     "id": 29,
     "firstName": "Daario",
     "lastName": "Naharis",
-    "fullName": "Daario",
+    "fullName": "Daario Naharis",
     "title": "Commander of the Second Sons",
     "family": "Naharis",
     "image": "daario.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/daario.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/daario.jpg",
+    "id_API": "1298"
   },
   {
     "id": 30,
@@ -307,7 +338,8 @@
     "title": "Mistress",
     "family": "Lorathi",
     "image": "shae.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/shae.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/shae.jpg",
+    "id_API": "1938"
   },
   {
     "id": 31,
@@ -317,17 +349,19 @@
     "title": "Prince",
     "family": "House Baratheon",
     "image": "tommen.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/tommen.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/tommen.jpg",
+    "id_API": "1029"
   },
   {
     "id": 32,
     "firstName": "Gendry",
     "lastName": "Baratheon",
-    "fullName": "Gendry Baratheon",
+    "fullName": "Gendry",
     "title": "Lord of Storm's End",
     "family": "House Baratheon",
     "image": "gendry.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/gendry.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/gendry.jpg",
+    "id_API": "1418"
   },
   {
     "id": 33,
@@ -337,196 +371,207 @@
     "title": "Knight",
     "family": "Mormont",
     "image": "jorah-mormont.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/jorah-mormont.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/jorah-mormont.jpg",
+    "id_API": "1560"
   },
+
   {
     "id": 34,
-    "firstName": "Robert",
-    "lastName": "Baratheon",
-    "fullName": "Robert Baratheon",
-    "title": "King",
-    "family": "House Baratheon",
-    "image": "king-robert.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/king-robert.jpg"
-  },
-  {
-    "id": 35,
-    "firstName": "Ramsey",
+    "firstName": "Ramsay",
     "lastName": "Bolton",
-    "fullName": "Ramsey Bolton",
+    "fullName": "Ramsay Snow",
     "title": "The Bastard of Bolton",
     "family": "House Bolton",
     "image": "ramsey-bolton.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/ramsey-bolton.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/ramsey-bolton.jpg",
+    "id_API": "849"
   },
   {
-    "id": 36,
+    "id": 35,
     "firstName": "Talisa",
     "lastName": "Stark",
-    "fullName": "Talisa Stark",
+    "fullName": "Jeyne Westerling",
     "title": "Queen Consort",
     "family": "House Stark",
     "image": "talisa-stark.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/talisa-stark.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/talisa-stark.jpg",
+    "id_API": "560"
   },
   {
-    "id": 37,
+    "id": 36,
     "firstName": "Jeor",
     "lastName": "Mormont",
     "fullName": "Jeor Mormont",
     "title": "Lord Commander of the Knight's Watch",
     "family": "House Mormont",
     "image": "lord-commander-mormont.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/lord-commander-mormont.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/lord-commander-mormont.jpg",
+    "id_API": "547"
   },
   {
-    "id": 38,
+    "id": 37,
     "firstName": "The High",
     "lastName": "Sparrow",
-    "fullName": "The High Sparrow",
+    "fullName": "High Septon",
     "title": "High Septon",
     "family": "",
     "image": "the-high-sparrow.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/the-high-sparrow.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/the-high-sparrow.jpg",
+    "id_API": "15"
   },
   {
-    "id": 39,
+    "id": 38,
     "firstName": "Oberyn",
     "lastName": "Martell",
-    "fullName": "Oberyn Martell",
+    "fullName": "Oberyn Nymeros Martell",
     "title": "Red Viper of Dorne",
     "family": "House Martell",
     "image": "red-viper.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/red-viper.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/red-viper.jpg",
+    "id_API": "1770"
   },
   {
-    "id": 40,
+    "id": 39,
     "firstName": "Melisandre",
     "lastName": "The Red Woman",
     "fullName": "Melisandre",
     "title": "Melisandre of Asshai",
     "family": "Unkown",
     "image": "melisandre.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/melisandre.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/melisandre.jpg",
+    "id_API": "743"
   },
   {
-    "id": 41,
+    "id": 40,
     "firstName": "Jaqen",
     "lastName": "H'ghar",
     "fullName": "Jaqen H'ghar",
     "title": "Faceless Men of Braavos",
     "family": "Lorath",
     "image": "jaqen-hghar.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/jaqen-hghar.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/jaqen-hghar.jpg",
+    "id_API": "1532"
   },
   {
-    "id": 42,
+    "id": 41,
     "firstName": "Tywin",
     "lastName": "Lannister",
     "fullName": "Tywin Lannister",
     "title": "Lord Paramount of Westerlands",
     "family": "House Lannister",
     "image": "tywin-lannister.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/tywin-lannister.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/tywin-lannister.jpg",
+    "id_API": "27"
   },
   {
-    "id": 43,
+    "id": 42,
     "firstName": "Ellaria",
     "lastName": "Sand",
     "fullName": "Ellaria Sand",
     "title": "Paramour of Prince Oberyn Martell",
     "family": "House Martell",
     "image": "ellaria-sand.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/ellaria-sand.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/ellaria-sand.jpg",
+    "id_API": "364"
   },
   {
-    "id": 44,
+    "id": 43,
     "firstName": "Tormund",
     "lastName": "Giantsbane",
-    "fullName": "Tormund Giantsbane",
+    "fullName": "Tormund",
     "title": "Free Folk Warrior",
     "family": "Free Folk",
     "image": "tormund-giantsbane.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/tormund-giantsbane.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/tormund-giantsbane.jpg",
+    "id_API": "2024"
   },
   {
-    "id": 45,
+    "id": 44,
     "firstName": "Yara",
     "lastName": "Greyjoy",
     "fullName": "Yara Greyjoy",
     "title": "Lady of the Iron Islands",
     "family": "House Greyjoy",
     "image": "yara-greyjoy.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/yara-greyjoy.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/yara-greyjoy.jpg",
+    "id_API": "150"
   },
   {
-    "id": 46,
+    "id": 45,
     "firstName": "Euron",
     "lastName": "Greyjoy",
     "fullName": "Euron Greyjoy",
     "title": "King of the iron Islands",
     "family": "House Greyjoy",
     "image": "euron-greyjoy.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/euron-greyjoy.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/euron-greyjoy.jpg",
+    "id_API": "385"
   },
   {
-    "id": 47,
-    "firstName": "Wylis",
-    "lastName": "Hodor",
-    "fullName": "Hodor",
+    "id": 46,
+    "firstName": "Walder",
+    "lastName": "",
+    "fullName": "Walder",
     "title": "Servant of House Stark",
     "family": "",
     "image": "hodor.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/hodor.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/hodor.jpg",
+    "id_API": "2"
   },
   {
-    "id": 48,
+    "id": 47,
     "firstName": "",
     "lastName": "Pycelle",
     "fullName": "Pycelle",
     "title": "Grand Maester of the Seven Kingdoms",
     "family": "",
     "image": "pycelle.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/pycelle.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/pycelle.jpg",
+    "id_API": "1826"
   },
   {
-    "id": 49,
+    "id": 48,
     "firstName": "Grey",
     "lastName": "Worm",
     "fullName": "Grey Worm",
     "title": "Commander of the Unsullied",
     "family": "Worm",
     "image": "greyworm.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/greyworm.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/greyworm.jpg",
+    "id_API": "1445"
   },
   {
-    "id": 50,
+    "id": 49,
     "firstName": "Olenna",
     "lastName": "Tyrell",
-    "fullName": "Olenna Tyrell",
+    "fullName": "Olenna Redwyne",
     "title": "Queen of Thorns",
     "family": "House Tyrell",
     "image": "olenna-tyrell.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/olenna-tyrell.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/olenna-tyrell.jpg",
+    "id_API": "784"
   },
   {
-    "id": 51,
+    "id": 50,
     "firstName": "Qyburn",
     "lastName": "Grand Maester",
     "fullName": "Qyburn",
     "title": "Former maester of the Citadel",
-    "family": "Qyburn",
+    "family": " ",
     "image": "qyburn.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/qyburn.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/qyburn.jpg",
+    "id_API": "1848"
   },
   {
-    "id": 52,
-    "firstName": "Lord",
+    "id": 51,
+    "firstName": "",
     "lastName": "Bronn",
-    "fullName": "Lord Bronn",
-    "title": "Lord of Highgarden",
+    "fullName": "Bronn",
+    "title": "Lord Protector of Stokeworth",
     "family": "",
     "image": "bronn.jpg",
-    "imageUrl": "https://thronesapi.com/assets/images/bronn.jpg"
+    "imageUrl": "https://thronesapi.com/assets/images/bronn.jpg",
+    "id_API": "217"
   }
 ]
+
