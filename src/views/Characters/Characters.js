@@ -11,13 +11,13 @@ function Characters() {
 
     const filteringMap = {
         Tutti: () => true,
-        Stark: characters => characters.family === "House Stark",
-        Targaryen: characters => characters.family === "House Targaryen",
-        Lannister: characters => characters.family === "House Lannister",
-        Baratheon: characters => characters.family === "House Baratheon",
-        Greyjoy: characters => characters.family === "House Greyjoy",
-        Martell: characters => characters.family === "House Martell",
-        Tyrell: characters => characters.family === "House Tyrell"
+        Stark: characters => characters.family === "House Stark of Winterfell",
+        Targaryen: characters => characters.family === "House Targaryen of King's Landing",
+        Lannister: characters => characters.family === "House Lannister of Casterly Rock",
+        Baratheon: characters => characters.family === "House Baratheon of Storm's End",
+        Greyjoy: characters => characters.family === "House Greyjoy of Pyke",
+        Martell: characters => characters.family === "House Nymeros Martell of Sunspear",
+        Tyrell: characters => characters.family === "House Tyrell of Highgarden",
     }
 
     const filterName = Object.keys(filteringMap);

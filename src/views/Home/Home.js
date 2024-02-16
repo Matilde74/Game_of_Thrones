@@ -1,20 +1,18 @@
 import React from "react";
-import Stark from "../../assets/images/flags/Stark_Flag.webp";
-import Lannister from "../../assets/images/flags/Lannister_Flag.jpeg";
-import Targaryen from "../../assets/images/flags/Targaryen_Flag.png";
+import HousesData from "../../assets/data/houses.json";
+import CharactersCard from "../../components/CharactersCard/CharactersCard";
+
 
 
 function Home (){
-    const Flags = [Stark, Lannister, Targaryen];
-    const CardFlags = Flags.map ((flag) => {
+    const HouseCardsCol = HousesData.map((house) => {
         return (
-            <img src={flag} alt="flag"/>
-        )
-    });
-    const Houses = ["House Stark", "House Lannister", "House Targaryen"];
-    const CardHouses = Houses.map((house) =>{
-        return (
-            <h1> {house} </h1>
+            <div key={house.id} className="col">
+                <CharactersCard
+                    name={house.name}
+                    image={house.imageUrl}
+                />
+            </div>
         )
     });
 
@@ -29,11 +27,7 @@ function Home (){
                     <div className="my-5 text-center">
 
                         <div className="my-5 text-center">
-                            <div>
-                                {CardFlags}
-                                {CardHouses}
-                                
-                            </div>
+                            {HouseCardsCol}
                         </div>
                     </div>
 

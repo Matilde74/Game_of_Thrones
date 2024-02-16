@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "House Stark of Winterfell",
+    "imageUrl": "https://awoiaf.westeros.org/images/thumb/7/7e/House_Stark.svg/1090px-House_Stark.svg.png"
+  },
+  {
+    "id": 1,
+    "name":"House Targaryen of King's Landing",
+    "imageUrl": "https://awoiaf.westeros.org/images/thumb/1/1e/House_Targaryen.svg/1090px-House_Targaryen.svg.png"
+  },
+  {
+    "id": 2,
+    "name": "House Lannister of Casterly Rock",
+    "imageUrl": "https://awoiaf.westeros.org/images/thumb/d/d5/House_Lannister.svg/1090px-House_Lannister.svg.png"
+  },
+  {
+    "id": 3,
+    "name": "House Baratheon of Storm's End",
+    "imageUrl": "https://awoiaf.westeros.org/images/thumb/2/2d/House_Baratheon.svg/1090px-House_Baratheon.svg.png"
+  },
+  {
+    "id": 4,
+    "name": "House Greyjoy of Pyke",
+    "imageUrl": "https://awoiaf.westeros.org/images/thumb/5/5b/House_Greyjoy.svg/1090px-House_Greyjoy.svg.png"
+  },
+  {
+    "id": 5,
+    "name": "House Nymeros Martell of Sunspear",
+    "imageUrl": "https://awoiaf.westeros.org/images/thumb/6/60/House_Martell.svg/1200px-House_Martell.svg.png"
+  },
+  {
+    "id": 6,
+    "name": "House Tyrell of Highgarden",
+    "imageUrl": "https://awoiaf.westeros.org/images/thumb/3/31/House_Tyrell.svg/1090px-House_Tyrell.svg.png"
+  }
+]
