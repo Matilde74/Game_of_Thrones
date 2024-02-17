@@ -23,8 +23,8 @@ function App() {
                 navItems={nav}
             >
                 <Routes>
-                    <Route path='/' element={<Home/>}/>
-                    <Route path='/characters' element={<Characters/>}/>
+                    <Route path="https://Matilde74.github.io/game_of_thrones" element={<Home/>}/>
+                    <Route path="/characters" element={<Characters/>}/>
                     <Route path="/characters/:number" element={<CharacterDetail/>}/>
                     <Route path="/info" element={<Info/>}/>
                 </Routes>
