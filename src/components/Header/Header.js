@@ -19,16 +19,24 @@ function Header(args) {
     return (
         <div>
             <Navbar {...args} expand={"lg"} >
-                <NavbarBrand className={style.brand} href="/">Game of Thrones</NavbarBrand>
+                <NavbarBrand className={style.brand} >
+                    <NavLink to={"/"}>
+                        Game of Thrones
+                    </NavLink>
+                </NavbarBrand>
                 <div className={style.menu}>
                     <NavbarToggler onClick={toggle} />
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="me-auto" navbar>
                             <NavItem className="px-2">
-                                <NavLink to={"/"} className={style.element} > Home </NavLink>
+                                <NavLink to={"/"} className={style.element} >
+                                    Home
+                                </NavLink>
                             </NavItem>
                             <NavItem className="px-2">
-                                <NavLink to={"/characters"} className={style.element} > Characters </NavLink>
+                                <NavLink to={"/characters"} className={style.element} >
+                                    Characters
+                                </NavLink>
                             </NavItem>
                             <NavItem className="px-2">
                                 <NavLink to={"/info"} className={style.element} >
