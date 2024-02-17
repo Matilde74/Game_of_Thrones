@@ -19,7 +19,7 @@ function Footer(props) {
     });
 
     return(
-        <footer className={style.gap}>
+        <footer>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col d-flex align-items-center justify-content-center">
