@@ -23,7 +23,7 @@ function App() {
                 navItems={nav}
             >
                 <Routes>
-                    <Route path="/matilde74.github.io" element={<Home/>}/>
+                    <Route path="/" element={<Home/>}/>
                     <Route path="/characters" element={<Characters/>}/>
                     <Route path="/characters/:number" element={<CharacterDetail/>}/>
                     <Route path="/info" element={<Info/>}/>
