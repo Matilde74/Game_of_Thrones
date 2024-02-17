@@ -5,9 +5,7 @@ function MainTemplate(props){
     const {children, footerCourseName, footerCourseLink, navItems} = props;
     return(
         <>
-            <Header
-                navItems={navItems}
-            />
+            <Header/>
             {children}
             <Footer
                 courseName={footerCourseName}
