@@ -25,7 +25,7 @@ function Header(args) {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="me-auto" navbar>
                             <NavItem className="px-2">
-                                <NavLink className={style.element} to="https://Matilde74np.github.io/game_of_thrones">Home</NavLink>
+                                <NavLink className={style.element} to="/">Home</NavLink>
                             </NavItem>
                             <NavItem className="px-2">
                                 <NavLink className={style.element} to="/characters">Characters</NavLink>
