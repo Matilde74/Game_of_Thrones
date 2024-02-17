@@ -79,7 +79,7 @@ function CharacterDetail () {
 
 
     return (
-        <div className="container">
+        <div className="container h-100">
             <div className="row">
                 <div className="col">
                     <div>
