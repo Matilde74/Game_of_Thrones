@@ -1,6 +1,7 @@
 {
-  "name": "progetto_applicazioni",
+  "name": "Game_of_Thrones",
   "version": "0.1.0",
+  "homepage": "https://github.com/Matilde74/Game_of_Thrones",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
     "clsx": "^2.1.0",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.0",
@@ -16,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,4 +43,5 @@
       "last 1 safari version"
     ]
   }
+
 }
