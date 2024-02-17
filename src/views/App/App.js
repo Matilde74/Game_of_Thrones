@@ -4,7 +4,7 @@ import Home from "../Home/Home";
 import Characters from "../Characters/Characters";
 import CharacterDetail from "../CharacterDetail/CharacterDetail";
 import Info from "../Info/Info";
-import {HashRouter, Route, Routes} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 
 
@@ -16,7 +16,7 @@ function App() {
     ];
 
     return (
-        <HashRouter basename="game_of_thrones">
+        <BrowserRouter basename="game_of_thrones">
             <MainTemplate
                 footerCourseName="Teoria e Tecnologia della Comunicazione"
                 footerCourseLink="https://elearning.unimib.it/course/index.php?categoryid=3588"
@@ -29,7 +29,7 @@ function App() {
                     <Route path="/info" element={<Info/>}/>
                 </Routes>
             </MainTemplate>
-        </HashRouter>
+        </BrowserRouter>
 
     );
 }
