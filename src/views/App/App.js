@@ -4,7 +4,7 @@ import Home from "../Home/Home";
 import Characters from "../Characters/Characters";
 import CharacterDetail from "../CharacterDetail/CharacterDetail";
 import Info from "../Info/Info";
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 
 
 
@@ -16,20 +16,20 @@ function App() {
     ];
 
     return (
-        <BrowserRouter>
+        <HashRouter basename="game_of_thrones">
             <MainTemplate
                 footerCourseName="Teoria e Tecnologia della Comunicazione"
                 footerCourseLink="https://elearning.unimib.it/course/index.php?categoryid=3588"
                 navItems={nav}
             >
                 <Routes>
-                    <Route path="https://Matilde74.github.io/game_of_thrones" element={<Home/>}/>
+                    <Route path="/Matilde74.github.io" element={<Home/>}/>
                     <Route path="/characters" element={<Characters/>}/>
                     <Route path="/characters/:number" element={<CharacterDetail/>}/>
                     <Route path="/info" element={<Info/>}/>
                 </Routes>
             </MainTemplate>
-        </BrowserRouter>
+        </HashRouter>
 
     );
 }
