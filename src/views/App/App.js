@@ -10,7 +10,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
     const nav = [
-        {url: "/matilde74.github.io/game_of_thrones", text: "Home", exact: true},
+        {url: "/game_of_thrones", text: "Home", exact: true},
         {url: "/characters", text: "Characters", exact: false},
         {url: "/info", text: "Info", exact: true}
     ];
