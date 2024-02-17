@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.css";
+import style from "./Header.module.css"
 import {
     Collapse,
     Navbar,
@@ -8,11 +9,6 @@ import {
     Nav,
     NavItem,
     NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText,
 } from 'reactstrap';
 
 function Header(args) {
@@ -23,32 +19,25 @@ function Header(args) {
     return (
         <div>
             <Navbar {...args} expand={"lg"} >
-                <NavbarBrand href="/">reactstrap</NavbarBrand>
-                <NavbarToggler onClick={toggle} />
-                <Collapse isOpen={isOpen} navbar>
-                    <Nav className="me-auto" navbar>
-                        <NavItem>
-                            <NavLink href="/components/">Components</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">
-                                GitHub
-                            </NavLink>
-                        </NavItem>
-                        <UncontrolledDropdown nav inNavbar>
-                            <DropdownToggle nav caret>
-                                Options
-                            </DropdownToggle>
-                            <DropdownMenu right>
-                                <DropdownItem>Option 1</DropdownItem>
-                                <DropdownItem>Option 2</DropdownItem>
-                                <DropdownItem divider />
-                                <DropdownItem>Reset</DropdownItem>
-                            </DropdownMenu>
-                        </UncontrolledDropdown>
-                    </Nav>
-                    <NavbarText>Simple Text</NavbarText>
-                </Collapse>
+                <NavbarBrand className={style.brand} href="/">Game of Thrones</NavbarBrand>
+                <div className={style.menu}>
+                    <NavbarToggler onClick={toggle} />
+                    <Collapse isOpen={isOpen} navbar>
+                        <Nav className="me-auto" navbar>
+                            <NavItem className="px-2">
+                                <NavLink className={style.element} href="/">Home</NavLink>
+                            </NavItem>
+                            <NavItem className="px-2">
+                                <NavLink className={style.element} href="/characters/">Characters</NavLink>
+                            </NavItem>
+                            <NavItem className="px-2">
+                                <NavLink className={style.element} href="/info/">
+                                    Info
+                                </NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
+                </div>
             </Navbar>
         </div>
     );

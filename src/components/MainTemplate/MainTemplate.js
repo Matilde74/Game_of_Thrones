@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 function MainTemplate(props){
-    const {children, footerCourseName, footerCourseLink} = props;
+    const {children, footerCourseName, footerCourseLink, navItems} = props;
     return(
         <>
             <Header/>
@@ -10,6 +10,7 @@ function MainTemplate(props){
             <Footer
                 courseName={footerCourseName}
                 courseLink={footerCourseLink}
+                navItems={navItems}
             />
         </>
     )

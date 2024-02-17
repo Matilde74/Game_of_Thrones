@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
-//import CharactersTable from "../../components/PokemonTable/PokemonTable";//
+import style from "./Characters.module.css";
 import CharactersCardsGrid from "../../components/CharactersCardsGrid/CharactersCardsGrid";
 import CharacterTable from "../../components/CharacterTable/CharacterTable";
 import FilterButton from "../../components/FilterButton/FilterButton";
 import CharactersListData from "../../assets/data/characters.json";
+import clsx from 'clsx';
 
 function Characters() {
     const [displayGrid, setDisplayGrid] = useState("true");
@@ -29,14 +30,14 @@ function Characters() {
             <div className="row justify-content-center">
                 <div className="col">
 
-                    <div >
+                    <div className={style.switch}>
 
-                        <div
+                        <div className={clsx(style.option, {[style.active]: displayGrid})}
                              onClick={() => setDisplayGrid(true)}>
                             Grid
                         </div>
 
-                        <div
+                        <div className={clsx(style.option, {[style.active]: !displayGrid})}
                              onClick={() => setDisplayGrid(false)}>
                             Table
                         </div>
@@ -47,7 +48,7 @@ function Characters() {
                 </div>
             </div>
             <div className="row">
-                <div className="Button-wrapper">
+                <div className=" d-flex justify-content-between">
                     {filterName.map (filterName => {
                             return (
                                 <FilterButton
@@ -61,7 +62,7 @@ function Characters() {
                     )}
                 </div>
             </div>
-            <div className="row justify-content-center">
+            <div className="row">
                 <div className="col">
                     {displayGrid ?
                         <CharactersCardsGrid

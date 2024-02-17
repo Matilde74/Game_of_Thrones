@@ -1,0 +1,8 @@
+.sfondo{
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vw;
+}

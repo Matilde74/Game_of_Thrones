@@ -1,0 +1,25 @@
+.brand {
+    font-family: "Game of Thrones", serif;
+    font-size: 32px!important;
+    letter-spacing: 2px;
+    color: var(--secondary-color);
+}
+
+.element{
+    font-size: 28px!important;
+    color: var(--tertiary-color)!important;
+}
+
+.element:hover{
+    background-color: var(--tertiary-color)!important;
+    color: var(--secondary-color)!important;
+
+}
+
+.menu{
+    float:end;
+    margin-right: 20px;
+    border: var(--secondary-color) solid 1px;
+    background-color: var(--secondary-color)!important;
+
+}

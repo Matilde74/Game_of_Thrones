@@ -1,6 +1,7 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 import {characterDefaultImage} from "../../utility/utility";
+import style from "./CharacterTable.module.css";
 
 function CharacterTable(props) {
     const {CharactersList} = props;
@@ -8,16 +9,16 @@ function CharacterTable(props) {
     const CharacterTr = CharactersList ? CharactersList.map((character) => {
         return (
             <tr key={character.id}>
-                <td>
+                <td >
                     <img onError={(event) => characterDefaultImage(event)} src={character.imageUrl}
-                         alt={character.fullName}
+                         alt={character.fullName} className={style.img}
                          loading="lazy"
                     />
                 </td>
                 <td>{character.fullName}</td>
                 <td>{character.family}</td>
                 <td>{character.title}</td>
-                <td><NavLink to={`/characters/${character.id}`}>Scheda</NavLink></td>
+                <td><NavLink to={`/characters/${character.id}`}  className="button">Know More</NavLink></td>
             </tr>
         );
     }) : null;
@@ -30,6 +31,7 @@ function CharacterTable(props) {
                 <th>Name</th>
                 <th>Family</th>
                 <th>Title</th>
+                <th>Info</th>
             </tr>
             </thead>
             <tbody>

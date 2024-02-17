@@ -9,12 +9,11 @@ function CharactersCardsGrid(props) {
     const CharactersCardsCol = CharactersList.map((character) => {
         return (
             <div key={character.id} className=" d-flex align-items-center justify-content-center">
-                <NavLink to={`/characters/${character.id}`}>
+                <NavLink to={`/characters/${character.id}`} className="shadow">
                     <CharactersCard
-                       name={character.fullName}
+                       firstname={character.firstName}
+                       lastname={character.lastName}
                        image={character.imageUrl}
-                       house={character.family}
-                       title={character.title}
                  />
                 </NavLink>
             </div>

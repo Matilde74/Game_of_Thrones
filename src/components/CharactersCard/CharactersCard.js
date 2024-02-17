@@ -4,22 +4,17 @@ import {characterDefaultImage} from "../../utility/utility";
 import style from './CharactersCard.module.css';
 
 function CharactersCard(props) {
-    const {name, image, house, title} = props;
+    const {firstname, lastname, image, } = props;
 
     return (
         <div>
             <Card className={style.card}>
                 <CardImg onError={(event) => characterDefaultImage(event)} loading="lazy"
-                         className="w-75 align-self-center justify-content-center" src={image} alt={name}/>
-                <CardBody className="text-center">
-                    <CardTitle className="pb-3">{name} </CardTitle>
-                    <CardText>
+                         className={style.img} src={image} alt={firstname + lastname}/>
+                <CardBody className="text-center justify-content-center align-items-center">
+                    <CardTitle className={style.cardtitle}>{firstname} </CardTitle>
+                    <CardTitle className={style.cardtitle}>{lastname} </CardTitle>
 
-                        {house}
-                    </CardText>
-                    <CardText>
-                        {title}
-                    </CardText>
                 </CardBody>
             </Card>
         </div>

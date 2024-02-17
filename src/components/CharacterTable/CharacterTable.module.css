@@ -1,0 +1,26 @@
+.img {
+    width: 65%;
+    aspect-ratio: 4/3;
+    object-fit: cover!important;
+    object-position: top;
+    text-align: center;
+
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    margin-top:20px;
+    font-size: large;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+
+
+
+}
+tr {
+    background-color: var(--tertiary-color);
+
+}
+
+

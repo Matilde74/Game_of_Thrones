@@ -1,5 +1,24 @@
 .card {
-    padding-top: 5px;
-    color: var(--tertiary-color)!important;
-    background-color: var(--secondary-color)!important;
+    margin-top: 10px;
+    color: var(--secondary-color)!important;
+    background-color: var(--tertiary-color)!important;
+}
+
+.img {
+    display: flex;
+    align-self: center;
+    justify-content:center;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.cardtitle {
+    display: block;
+    height: 30px;
+    font-weight: bold;
+    font-size: large;
+    text-transform: uppercase;
+    margin: 0;
 }
