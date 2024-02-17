@@ -10,7 +10,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
     const nav = [
-        {url: "/", text: "Home", exact: true},
+        {url: "/https://github.com/Matilde74/Game_of_Thrones", text: "Home", exact: true},
         {url: "/characters", text: "Characters", exact: false},
         {url: "/info", text: "Info", exact: true}
     ];
@@ -23,7 +23,7 @@ function App() {
                 navItems={nav}
             >
                 <Routes>
-                    <Route path='/' element={<Home/>}/>
+                    <Route path='/https://github.com/Matilde74/Game_of_Thrones' element={<Home/>}/>
                     <Route path='/characters' element={<Characters/>}/>
                     <Route path="/characters/:number" element={<CharacterDetail/>}/>
                     <Route path="/info" element={<Info/>}/>
