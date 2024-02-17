@@ -25,13 +25,13 @@ function Header(args) {
                     <Collapse isOpen={isOpen} navbar>
                         <Nav className="me-auto" navbar>
                             <NavItem className="px-2">
-                                <NavLink className={style.element} to="/">Home</NavLink>
+                                <NavLink className={style.element} to={"/"}>Home</NavLink>
                             </NavItem>
                             <NavItem className="px-2">
-                                <NavLink className={style.element} to="/characters">Characters</NavLink>
+                                <NavLink className={style.element} to={"/characters"}>Characters</NavLink>
                             </NavItem>
                             <NavItem className="px-2">
-                                <NavLink className={style.element} to="/info">
+                                <NavLink className={style.element} to={"/info"}>
                                     Info
                                 </NavLink>
                             </NavItem>
