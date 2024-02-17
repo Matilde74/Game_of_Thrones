@@ -10,9 +10,9 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
     const nav = [
-        {url: "https://matilde74.github.io/game_of_thrones/", text: "Home", exact: true},
-        {url: "https://matilde74.github.io/game_of_thrones/characters", text: "Characters", exact: false},
-        {url: "https://matilde74.github.io/game_of_thrones/info", text: "Info", exact: true}
+        {url: "https://Matilde74.github.io/game_of_thrones/", text: "Home", exact: true},
+        {url: "https://Matilde74.github.io/game_of_thrones/characters", text: "Characters", exact: false},
+        {url: "https://Matilde74.github.io/game_of_thrones/info", text: "Info", exact: true}
     ];
 
     return (
@@ -23,11 +23,10 @@ function App() {
                 navItems={nav}
             >
                 <Routes>
-                    <Route path='https://matilde74.github.io/game_of_thrones' element={<Home/>}/>
-                    <Route path='https://matilde74.github.io/game_of_thrones/characters' element={<Characters/>}/>
-                    <Route path="https://matilde74.github.io/game_of_thrones/characters/:number" element={<CharacterDetail/>}/>
+                    <Route path='https://Matilde74.github.io/game_of_thrones' element={<Home/>}/>
+                    <Route path='https://Matilde74.github.io/game_of_thrones/characters' element={<Characters/>}/>
+                    <Route path="https://Matilde74.github.io/game_of_thrones/characters/:number" element={<CharacterDetail/>}/>
                     <Route path="/info" element={<Info/>}/>
-
                 </Routes>
             </MainTemplate>
         </BrowserRouter>
