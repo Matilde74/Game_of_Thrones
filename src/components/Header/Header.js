@@ -19,8 +19,8 @@ function Header(args) {
     return (
         <div>
             <Navbar {...args} expand={"lg"} >
-                <NavbarBrand className={style.brand} >
-                    <NavLink to={"/"} >
+                <NavbarBrand>
+                    <NavLink to={"/"} className={style.brand}>
                         Game of Thrones
                     </NavLink>
                 </NavbarBrand>
