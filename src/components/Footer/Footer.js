@@ -19,7 +19,7 @@ function Footer(props) {
     });
 
     return(
-        <footer>
+        <footer className="pt-3">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col d-flex align-items-center justify-content-center">
