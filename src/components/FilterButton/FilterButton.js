@@ -5,7 +5,7 @@ function FilterButton (props) {
         <div className="buttonWrapper">
             <button
                 className={props.pressed ? 'default' : 'outlined'}
-                onClick={props.setFilter(props.name)}}
+                onClick={props.setFilter(props.name)}
             >
                 {props.name}
             </button>
