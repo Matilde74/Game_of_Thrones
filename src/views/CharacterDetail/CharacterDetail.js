@@ -79,137 +79,140 @@ function CharacterDetail () {
 
 
     return (
-        <div className="container h-100">
-            <div className="row">
-                <div className="col">
-                    <div>
+        <div className={style.sfondo}>
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <div>
 
-                        {id - 1 !== -1 &&
-                            <NavLink className="button ms-5"
-                                     to={`/Characters/${id - 1}`}> &lt; Prev</NavLink>
-                        }
+                            {id - 1 !== -1 &&
+                                <NavLink className="button ms-5"
+                                         to={`/Characters/${id - 1}`}> &lt; Prev</NavLink>
+                            }
 
-                        {id + 1 <= CharactersListData.length - 1 &&
-                            <NavLink className="button me-5 float-end"
-                                     to={`/Characters/${id + 1}`}>Next &gt;</NavLink>
-                        }
+                            {id + 1 <= CharactersListData.length - 1 &&
+                                <NavLink className="button me-5 float-end"
+                                         to={`/Characters/${id + 1}`}>Next &gt;</NavLink>
+                            }
 
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col d-flex align-items-baseline justify-content-center">
+                        <Card
+                            style={{
+                                width: '18rem'
+                            }}
+                            className={style.card}
+                        >
+                            <CardBody>
+                                <CardTitle tag="h5">
+                                    {currentCharacter.fullName}
+                                </CardTitle>
+                                <CardSubtitle
+                                    className="mb-2 text-muted"
+                                    tag="h6"
+                                >
+                                    {currentCharacter.family}
+                                </CardSubtitle>
+                            </CardBody>
+                            <img className={style.img}
+                                 alt={currentCharacter.fullName}
+                                 src={currentCharacter.imageUrl}
+                                 width="100%"
+                            />
+                            <CardBody>
+                                <CardText className={style.italic}>
+                                    {characterQuote.sentence && characterQuote.sentence !== "" &&
+                                        <div>
+                                            {characterQuote.sentence}
+                                        </div>
+                                    }
+                                </CardText>
+                            </CardBody>
+                        </Card>
+                    </div>
+                    <div className="col pt-3">
+                        {isLoading ? (
+                            <div>Loading...</div>
+                        ) : (
+                            <ListGroup className={style.group}>
+
+                                {characterData.born && characterData.born !== "" &&
+                                    <ListGroupItem className={style.list}>
+                                        <p>Born:</p> {characterData.born}
+                                    </ListGroupItem>
+                                }
+
+
+                                {characterData.titles && characterData.titles != "" &&
+                                    <ListGroupItem className={style.list}>
+                                        <p>Titles:</p>
+                                        <ul>
+                                            {characterData.titles.map ((element, index) => (
+                                                <li key={index}> {element}</li>
+                                            ))}
+                                        </ul>
+                                    </ListGroupItem>
+
+                                }
+
+
+                                {characterData.aliases && characterData.aliases != "" &&
+                                    <ListGroupItem className={style.list}>
+                                        <p> Aliases: </p>
+                                        <ul>
+                                            {characterData.aliases.map((element, index) => (
+                                                <li key={index}> {element}</li>
+                                            ))}
+                                        </ul>
+                                    </ListGroupItem>
+                                }
+
+                                {characterData.spouse !== "" && spouse.titles  && spouse.titles != "" &&
+                                    <ListGroupItem className={style.list}>
+                                        <p>Spouse: </p> <div className={style.italic}>{spouse.name}</div>
+                                        <ul>
+                                            {spouse.titles.map((element, index) => (
+                                                <li key={index}> {element}</li>
+                                            ))}
+                                        </ul>
+                                    </ListGroupItem>
+                                }
+
+
+                                {characterData.tvSeries && characterData.tvSeries != "" &&
+                                    <ListGroupItem className={style.list}>
+                                        <p>TV Series:</p>
+                                        <ul>
+                                            {characterData.tvSeries.map((element, index) => (
+                                                <li key={index}> {element}</li>
+                                            ))}
+                                        </ul>
+                                    </ListGroupItem>
+
+                                }
+
+
+                                {characterData.playedBy && characterData.playedBy != "" &&
+                                    <ListGroupItem className={style.list}>
+                                        <p>Played by:</p>
+                                        <ul>
+                                            {characterData.playedBy.map((element, index) => (
+                                                <li key={index}> {element}</li>
+                                            ))}
+                                        </ul>
+                                    </ListGroupItem>
+
+                                }
+                            </ListGroup>
+                        )}
                     </div>
                 </div>
             </div>
-            <div className="row">
-                <div className="col d-flex align-items-baseline justify-content-center">
-                    <Card
-                        style={{
-                            width: '18rem'
-                        }}
-                        className={style.card}
-                    >
-                        <CardBody>
-                            <CardTitle tag="h5">
-                                {currentCharacter.fullName}
-                            </CardTitle>
-                            <CardSubtitle
-                                className="mb-2 text-muted"
-                                tag="h6"
-                            >
-                                {currentCharacter.family}
-                            </CardSubtitle>
-                        </CardBody>
-                        <img className={style.img}
-                            alt={currentCharacter.fullName}
-                            src={currentCharacter.imageUrl}
-                            width="100%"
-                        />
-                        <CardBody>
-                            <CardText className={style.italic}>
-                                {characterQuote.sentence && characterQuote.sentence !== "" &&
-                                    <div>
-                                        {characterQuote.sentence}
-                                    </div>
-                                }
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </div>
-                <div className="col pt-3">
-                    {isLoading ? (
-                        <div>Loading...</div>
-                    ) : (
-                        <ListGroup className={style.group}>
-
-                            {characterData.born && characterData.born !== "" &&
-                                <ListGroupItem className={style.list}>
-                                    <p>Born:</p> {characterData.born}
-                                </ListGroupItem>
-                            }
-
-
-                            {characterData.titles && characterData.titles != "" &&
-                                <ListGroupItem className={style.list}>
-                                    <p>Titles:</p>
-                                    <ul>
-                                        {characterData.titles.map ((element, index) => (
-                                            <li key={index}> {element}</li>
-                                        ))}
-                                    </ul>
-                                </ListGroupItem>
-
-                            }
-
-
-                            {characterData.aliases && characterData.aliases != "" &&
-                                <ListGroupItem className={style.list}>
-                                    <p> Aliases: </p>
-                                    <ul>
-                                        {characterData.aliases.map((element, index) => (
-                                            <li key={index}> {element}</li>
-                                        ))}
-                                    </ul>
-                                </ListGroupItem>
-                            }
-
-                            {characterData.spouse !== "" && spouse.titles  && spouse.titles != "" &&
-                                <ListGroupItem className={style.list}>
-                                    <p>Spouse: </p> <div className={style.italic}>{spouse.name}</div>
-                                    <ul>
-                                        {spouse.titles.map((element, index) => (
-                                            <li key={index}> {element}</li>
-                                        ))}
-                                    </ul>
-                                </ListGroupItem>
-                            }
-
-
-                            {characterData.tvSeries && characterData.tvSeries != "" &&
-                                <ListGroupItem className={style.list}>
-                                    <p>TV Series:</p>
-                                    <ul>
-                                        {characterData.tvSeries.map((element, index) => (
-                                            <li key={index}> {element}</li>
-                                        ))}
-                                    </ul>
-                                </ListGroupItem>
-
-                            }
-
-
-                            {characterData.playedBy && characterData.playedBy != "" &&
-                                <ListGroupItem className={style.list}>
-                                    <p>Played by:</p>
-                                    <ul>
-                                        {characterData.playedBy.map((element, index) => (
-                                            <li key={index}> {element}</li>
-                                        ))}
-                                    </ul>
-                                </ListGroupItem>
-
-                            }
-                        </ListGroup>
-                        )}
-                </div>
-            </div>
         </div>
+
 
     )
 }
