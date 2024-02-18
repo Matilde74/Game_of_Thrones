@@ -4,7 +4,7 @@ function Info () {
     return (
         <div>
             <div className={style.sfondo} >
-                <h2>
+                <h2 className={style.par}>
                     Questo progetto è stato creato attraverso l’utilizzo delle API:
                     <ul className={style.ul}>
                         <li>

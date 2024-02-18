@@ -5,11 +5,15 @@
     align-items: center;
     justify-content: center;
     height: 50vw;
-    line-height: 2;
+
 }
 
 .info {
     color: var(--secondary-color)!important;
+}
+
+.par{
+    line-height: 2;
 }
 
 .ul {
