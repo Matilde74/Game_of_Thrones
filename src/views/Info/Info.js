@@ -2,7 +2,7 @@ import React from "react";
 import style from "./Info.module.css"
 function Info (){
     return (
-        <div>
+        <div className="lh-lg">
             <div className={style.sfondo} >
                 <h2>
                     Questo progetto è stato creato attraverso l’utilizzo delle API:
