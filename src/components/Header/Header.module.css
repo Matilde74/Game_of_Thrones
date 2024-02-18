@@ -2,7 +2,7 @@
     font-family: "Game of Thrones", serif;
     font-size: 32px!important;
     letter-spacing: 2px;
-    color: var(--secondary-color);
+    color: var(--secondary-color)!important;
 }
 
 .element{
