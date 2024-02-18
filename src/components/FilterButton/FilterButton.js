@@ -1,15 +1,13 @@
 import React from 'react';
+import Button from "../Button/Button"
 
 function FilterButton (props) {
     return (
-        <div className="buttonWrapper">
-            <button
-                className={props.pressed ? 'default' : 'outlined'}
-                onClick={props.setFilter(props.name)}
-            >
-                {props.name}
-            </button>
-        </div>
+        <Button
+            type={props.pressed ? 'default' : 'outlined'}
+            text={props.name}
+            onClick={() => props.setFilter(props.name)}
+        />
     )
 }
 

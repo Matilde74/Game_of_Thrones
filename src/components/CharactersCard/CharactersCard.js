@@ -4,7 +4,7 @@ import {characterDefaultImage} from "../../utility/utility";
 import style from './CharactersCard.module.css';
 
 function CharactersCard(props) {
-    const {firstname, lastname, image, } = props;
+    const {firstname, lastname, image,} = props;
 
     return (
         <div>
