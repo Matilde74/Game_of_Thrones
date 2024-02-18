@@ -6,3 +6,7 @@
     justify-content: center;
     height: 50vw;
 }
+
+a{
+    color: var(--secondary-color) !important;
+}
