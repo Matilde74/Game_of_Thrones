@@ -19,8 +19,10 @@ function Header(args) {
     return (
         <div>
             <Navbar {...args} expand={"lg"} >
-                <NavbarBrand href="/game_of_thrones" className={style.brand} >
+                <NavbarBrand className={style.brand} >
+                    <NavLink to={"/"} >
                         Game of Thrones
+                    </NavLink>
                 </NavbarBrand>
                 <div className={style.menu}>
                     <NavbarToggler onClick={toggle} />
