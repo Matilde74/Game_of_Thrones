@@ -6,7 +6,7 @@ function Info (){
             <div className={style.sfondo} >
                 <h2>
                     Questo progetto è stato creato attraverso l’utilizzo delle API:
-                    <ul>
+                    <ul className={style.ul}>
                         <li>
                             <a className={style.info} href={'https://gameofthronesquotes.xyz/'}>
                                 https://gameofthronesquotes.xyz/

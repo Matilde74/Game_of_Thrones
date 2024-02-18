@@ -10,3 +10,7 @@
 .info {
     color: var(--secondary-color)!important;
 }
+
+.ul {
+    list-style-type: circle!important;
+}
