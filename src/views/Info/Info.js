@@ -8,17 +8,17 @@ function Info (){
                     Questo progetto è stato creato attraverso l’utilizzo delle API:
                     <ul>
                         <li>
-                            <a href={'https://gameofthronesquotes.xyz/'}>
+                            <a className={style.info} href={'https://gameofthronesquotes.xyz/'}>
                                 https://gameofthronesquotes.xyz/
                             </a>
                         </li>
                         <li>
-                            <a href={'https://thronesapi.com/swagger/index.html?urls.primaryName=Game of Thrones API v2'}>
+                            <a className={style.info} href={'https://thronesapi.com/swagger/index.html?urls.primaryName=Game of Thrones API v2'}>
                                 https://thronesapi.com/swagger/index.html?urls.primaryName=Game of Thrones API v2
                             </a>
                         </li>
                         <li>
-                            <a href={'https://anapioficeandfire.com/'}>
+                            <a className={style.info} href={'https://anapioficeandfire.com/'}>
                                 https://anapioficeandfire.com/
                             </a>
                         </li>
