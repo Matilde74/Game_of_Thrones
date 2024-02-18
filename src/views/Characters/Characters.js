@@ -26,7 +26,7 @@ function Characters() {
 
 
     return (
-        <div className="container">
+        <div className="container pb-2">
             <div className="row justify-content-center">
                 <div className="col">
 
