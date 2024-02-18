@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, CardBody, CardImg, CardText, CardTitle} from "reactstrap";
+import {Card, CardBody, CardImg, CardTitle} from "reactstrap";
 import {characterDefaultImage} from "../../utility/utility";
 import style from './CharactersCard.module.css';
 

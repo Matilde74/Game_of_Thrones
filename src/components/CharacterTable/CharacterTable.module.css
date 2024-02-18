@@ -12,7 +12,7 @@ table{
     width: 100%;
     margin-top:20px;
     font-size: large;
-    border-collapse: separate;
+    border-collapse: separate!important;
     border-spacing: 0 15px;
 
 
