@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/game_of_thrones/static/css/main.de77d261.css",
-    "main.js": "/game_of_thrones/static/js/main.a7439057.js",
+    "main.js": "/game_of_thrones/static/js/main.835552cd.js",
     "static/js/787.68887e0c.chunk.js": "/game_of_thrones/static/js/787.68887e0c.chunk.js",
     "static/media/Cormorant-VariableFont_wght.ttf": "/game_of_thrones/static/media/Cormorant-VariableFont_wght.2f3813cd2f15004dc43f.ttf",
     "static/media/Cormorant-Italic-VariableFont_wght.ttf": "/game_of_thrones/static/media/Cormorant-Italic-VariableFont_wght.7e549ebb24d7c7022095.ttf",
@@ -10,11 +10,11 @@
     "static/media/disco.png": "/game_of_thrones/static/media/disco.539f488bc55b867d321f.png",
     "index.html": "/game_of_thrones/index.html",
     "main.de77d261.css.map": "/game_of_thrones/static/css/main.de77d261.css.map",
-    "main.a7439057.js.map": "/game_of_thrones/static/js/main.a7439057.js.map",
+    "main.835552cd.js.map": "/game_of_thrones/static/js/main.835552cd.js.map",
     "787.68887e0c.chunk.js.map": "/game_of_thrones/static/js/787.68887e0c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de77d261.css",
-    "static/js/main.a7439057.js"
+    "static/js/main.835552cd.js"
   ]
 }
