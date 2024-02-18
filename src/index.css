@@ -23,7 +23,7 @@
 body {
   background: rgb(16,40,32);
   background: linear-gradient(0deg, rgba(16,40,32,1) 0%, rgba(202,186,156,1) 100%);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: "Cormorant", serif;
 }
 
