@@ -7,6 +7,7 @@ import {
     CardText,
     CardTitle,
     CardSubtitle,
+    CardHeader,
     ListGroup,
     ListGroupItem
 } from "reactstrap";
@@ -137,6 +138,29 @@ function CharacterDetail () {
                         {isLoading ? (
                             <div>Loading...</div>
                         ) : (
+                            <Card
+                                className="my-2"
+                                color= "light"
+                                style={{
+                                    width: '18rem'
+                                }}
+                            >
+                                <CardHeader>
+                                    Titles
+                                </CardHeader>
+                                <CardBody>
+                                    {characterData.titles && characterData.titles != "" &&
+                                        <CardText className={style.list}>
+                                            <p>Titles:</p>
+                                            <ul>
+                                                {characterData.titles.map ((element, index) => (
+                                                    <li key={index}> {element}</li>
+                                                ))}
+                                            </ul>
+                                        </CardText>
+                                    }
+                                </CardBody>
+                            </Card>)}
                             <ListGroup className={style.group}>
 
                                 {characterData.born && characterData.born !== "" &&
@@ -146,17 +170,7 @@ function CharacterDetail () {
                                 }
 
 
-                                {characterData.titles && characterData.titles != "" &&
-                                    <ListGroupItem className={style.list}>
-                                        <p>Titles:</p>
-                                        <ul>
-                                            {characterData.titles.map ((element, index) => (
-                                                <li key={index}> {element}</li>
-                                            ))}
-                                        </ul>
-                                    </ListGroupItem>
 
-                                }
 
 
                                 {characterData.aliases && characterData.aliases != "" &&

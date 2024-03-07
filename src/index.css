@@ -20,6 +20,11 @@
   src: local('Cormorant Italic'), url(./assets/font/Cormorant/Cormorant-Italic-VariableFont_wght.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Italianno';
+  src: local('Italianno'), url(./assets/font/Italianno/Italianno-Regular.ttf) format('truetype');
+}
+
 body {
   background: rgb(16,40,32);
   background: linear-gradient(0deg, rgba(16,40,32,1) 0%, rgba(202,186,156,1) 100%);
