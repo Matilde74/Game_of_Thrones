@@ -42,7 +42,7 @@ function Characters() {
                             Table
                         </div>
 
-                    </div> {/*l'importante è che i due elementi che contiene abbiano valori di stile opposti*/}
+                    </div>
 
 
                 </div>
