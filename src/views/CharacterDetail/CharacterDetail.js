@@ -139,7 +139,6 @@ function CharacterDetail () {
                             <div>Loading...</div>
                         ) : (
                             <Card
-                                className="my-2"
                                 color= "light"
                                 style={{
                                     width: '18rem'
