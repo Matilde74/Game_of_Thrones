@@ -22,6 +22,7 @@
 .list {
     background-color: var(--tertiary-color)!important;
     border-color: var(--secondary-color)!important;
+    text-decoration: none;
 }
 p{
     display: block;

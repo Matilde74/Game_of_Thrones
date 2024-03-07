@@ -147,7 +147,7 @@ function CharacterDetail () {
                                 <CardHeader>
                                     Titles
                                 </CardHeader>
-                                <CardBody>
+                                <CardBody className="text-decoration-none">
                                     {characterData.titles && characterData.titles != "" &&
                                         <CardText className={style.list}>
                                             <ul>
