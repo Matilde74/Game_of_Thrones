@@ -12,7 +12,7 @@ function Characters() {
 
     const filteringMap = {
         Tutti: () => true,
-        Stark: characters => characters.family === "House Stark of Winterfell" && characters.hide(characters.family !== "House Stark of Winterfell"),
+        Stark: characters => characters.family === "House Stark of Winterfell",
         Targaryen: characters => characters.family === "House Targaryen of King's Landing",
         Lannister: characters => characters.family === "House Lannister of Casterly Rock",
         Baratheon: characters => characters.family === "House Baratheon of Storm's End",
