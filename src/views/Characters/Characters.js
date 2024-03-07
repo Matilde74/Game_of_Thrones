@@ -22,7 +22,7 @@ function Characters() {
     }
 
     const filterName = Object.keys(filteringMap);
-    const filteredCharacters = CharactersListData.filter(filteringMap[filter]);
+    const filteredCharacters = CharactersListData.filter(filteringMap[filter]) && !filter.hide();
 
 
     return (
