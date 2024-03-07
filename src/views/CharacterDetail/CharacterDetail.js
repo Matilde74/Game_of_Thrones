@@ -144,6 +144,7 @@ function CharacterDetail () {
                                 style={{
                                     width: '18rem'
                                 }}
+                                className={style.card}
                             >
                                 <CardHeader>
                                     Titles
