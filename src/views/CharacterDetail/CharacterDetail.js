@@ -151,7 +151,6 @@ function CharacterDetail () {
                                 <CardBody>
                                     {characterData.titles && characterData.titles != "" &&
                                         <CardText className={style.list}>
-                                            <p>Titles:</p>
                                             <ul>
                                                 {characterData.titles.map ((element, index) => (
                                                     <li key={index}> {element}</li>
